@@ -1,0 +1,330 @@
+/* https://www.colourlovers.com/palette/4776943/Hearthstone */
+:root{
+    --background-color: rgb(83, 109, 83);
+    --slide-color: rgb(223, 89, 111);
+    --winter-color: rgb(0, 217, 255);
+    --autumn-color: rgb(255, 145, 0);
+    --spring-color: rgb(252, 23, 164);
+    --summer-color: rgb(0, 255, 0);
+    --header: black;
+    --class-color: black;
+    --druid: rgb(117, 21, 21);
+    --hunter: rgb(0, 81, 255);
+     --shaman: rgb(102, 255, 0);
+     --rogue: rgb(124, 124, 124);
+     --priest: rgb(255, 255, 255);
+     --palidan: rgb(255, 255, 35);
+     --demonhunter: rgb(255, 0, 221);
+     --mage: rgb(10, 180, 236);
+     --warrior: rgb(255, 166, 0);
+     --warlock: rgb(77, 0, 77);
+    }
+    .druid{
+--class-color: var(--druid);
+    }
+    .mage{
+      --class-color: var(--mage);
+    }
+    .hunter{
+      --class-color: var(--hunter);
+    }
+    .palidan{
+      --class-color: var(--palidan);
+    }
+    .priest{
+      --class-color: var(--priest);
+    }
+    .rogue{
+      --class-color: var(--rogue);
+    }
+    .shaman{
+      --class-color: var(--shaman);
+    }
+    .demonhunter{
+      --class-color: var(--demonhunter);
+    }
+    .warrior{
+      --class-color: var(--warrior);
+    }
+    .warlock{
+      --class-color: var(--warlock);
+    }
+    .winter{
+        --background-color: var(--winter-color);
+      }
+      .spring{
+        --background-color: var(--spring-color);
+      }
+      .summer{
+        --background-color: var(--summer-color);
+      }
+      .autumn{
+        --background-color: var(--autumn-color);
+      }
+     .calander-page .big-hero{
+        flex-direction: column;
+      }
+main  nav {
+    
+    font-family: 'JetBrains Mono', monospace;
+    display: flex;
+    flex-direction: row;
+    
+}
+main div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    object-fit: cover;
+    
+    
+}
+.about-page .big-hero{
+  display: flex;
+    flex-direction: column;
+
+}
+.about-page .big-hero div{
+  display: flex;
+    flex-direction: column;
+
+}
+.about-page .big-hero section{
+  display: block;
+    flex-direction: column;
+
+}
+.about-page .big-hero h2 a{
+  color: orange;
+    
+}
+.months-page .big-hero h2{
+  color: rgb(224, 36, 224);
+}
+.months-page p{
+  color: rgb(255, 74, 74);
+}
+.months-page h2{
+  color: darkmagenta;
+}
+.big-hero{
+  flex-direction: column;
+}
+.calander-page .big-hero div{
+  flex-direction: column;
+  
+}
+.calander-page a{
+  color: aliceblue;
+}
+main nav a{
+    color: black;
+    text-decoration: underline;
+   
+      display: block;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    padding: 10px 10px;
+    text-align: center;
+   
+    width: 100%;
+    object-fit: cover;
+}
+html{
+    background-color: rgb(126, 97, 97);
+}
+.card {
+  width:  150px;
+  height: 200px;
+  
+}
+.hunter{
+  background-repeat: no-repeat;
+ 
+ height: 100vh;
+ background-size: cover;
+  background-image: url(../images/Hunter/Hunter-background.jpg);
+}
+.druid{
+  background-repeat: no-repeat;
+ 
+  height: 100vh;
+  background-size: cover;
+  background-image: url(../images/Druid/Druid-background.jpg)
+}
+.warlock{
+  background-repeat: no-repeat;
+ 
+  height: 100vh;
+  background-size: cover;
+  background-image: url(../images/Warlock/Guldan.jpg)
+}
+.demonhunter{
+  background-repeat: no-repeat;
+ 
+  height: 100vh;
+  background-size: cover;
+  background-image: url(../images/Demon-Hunter/Illidan.png)
+}
+.mage{
+  background-repeat: no-repeat;
+ 
+  height: 100vh;
+  background-size: cover;
+  background-image: url(../images/Mage/jaina.jpg)
+}
+.palidan{
+  background-repeat: no-repeat;
+ 
+  height: 100vh;
+  background-size: cover;
+  background-image: url(../images/Palidan/paladin-hearthstone-hero-portrait.jpg)
+}
+.shaman{
+  background-repeat: no-repeat;
+ 
+  height: 100vh;
+  background-size: cover;
+  background-image: url(../images/Shaman/og_heroes_shaman.jpg)
+}
+.priest{
+  background-repeat: no-repeat;
+ 
+  height: 100vh;
+  background-size: cover;
+  background-image: url(../images/Priest/og_heroes_priest.jpg)
+}
+.warrior{
+  background-repeat: no-repeat;
+ 
+  height: 100vh;
+  background-size: cover;
+  background-image: url(../images/Warrior/og_heroes_warrior.jpg)
+}
+.rogue{
+  background-repeat: no-repeat;
+ 
+  height: 100vh;
+  background-size: cover;
+  background-image: url(../images/Rogue/download.jfif)
+}
+section{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.text{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 2fr;
+}
+.card{
+  display: flex;
+  flex-direction: row;
+  grid-template-rows: repeat(3, 1fr);
+  position: relative;
+}
+h2{
+  color: yellow;
+  
+}
+.text p{
+  color: var(--class-color);
+  text-decoration: underline;
+  z-index: 10;
+}
+.gallary{
+  display: flex;
+  flex-direction: column;
+  object-fit: cover;
+}
+.gallary img{
+  display: grid;
+  object-fit: cover;
+  width: 100%;
+}
+.gallary div{
+  padding: 10px;
+  margin: 5px;
+  grid-gap: 10px;
+  
+}
+.gallary a{
+  display: grid;
+  object-fit: cover;
+  width: 100%;
+  width:  150px;
+  height: 200px;
+}
+.calander-page .big-hero{
+  height: 200vh;
+}
+@media screen and (min-width: 768px) {
+  section {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+    
+  }
+  main div{
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: initial;
+  }
+  .text{
+    display: flex;
+  grid-gap: 20px;
+  }
+  .pics {
+    position: sticky;
+    top: 100px;
+}
+.gallary{
+  display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  object-fit: cover;
+}
+.gallary img{
+  display: grid;
+  object-fit: cover;
+  width: 100%;
+  width:  150px;
+  height: 200px;
+
+}
+.gallary a{
+  display: grid;
+  object-fit: cover;
+  width: 100%;
+  width:  150px;
+  height: 200px;
+}
+.about-page .big-hero img{
+  display: grid;
+
+width: 100%;
+width:  300px;
+height: 400px;
+}
+.about-page .big-hero section{
+flex-direction: row;
+}
+}
+@media screen and (min-width: 1160px) {
+  .gallary{
+    display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(3, 1fr);
+    object-fit: cover;
+    
+  }
+  .about-page .big-hero img{
+    display: grid;
+  object-fit: cover;
+  width: 100%;
+  width:  600px;
+height: 800px;
+  }
+}
