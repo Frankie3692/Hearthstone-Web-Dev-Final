@@ -1,0 +1,67 @@
+/* https://www.colourlovers.com/palette/4776943/Hearthstone */
+:root{
+    --background-color: rgb(0, 51, 0);
+    --slide-color: rgb(223, 89, 111);
+    --winter-color: rgb(0, 217, 255);
+    --autumn-color: rgb(255, 145, 0);
+    --spring-color: rgb(252, 23, 164);
+    --summer-color: rgb(0, 255, 0);
+    --header: black;
+    }
+    .winter{
+        --background-color: var(--winter-color);
+      }
+      .spring{
+        --background-color: var(--spring-color);
+      }
+      .summer{
+        --background-color: var(--summer-color);
+      }
+      .autumn{
+        --background-color: var(--autumn-color);
+      }
+#calender{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 10px;
+    min-width: 90%;
+    min-height: 100vh;
+    background-color: var(--background-color);
+    font-family: 'JetBrains Mono', monospace;
+}
+#calender th , #calender td{
+    border : 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+#calender td{
+    align-self: right;
+    vertical-align: bottom;
+}
+.holiday{
+    color: white;  
+    font-size: 150%; 
+    background-color : darkmagenta;
+    z-index: 10;;
+}
+.birthday{
+  background-image: url(../images/birthday.jfif);
+ background-size: contain;
+}
+
+/* a{
+    text-decoration: none;
+    font-size: larger;
+    color:gray;
+    background-color: bisque;
+} */
+section{
+    height: 100vh;
+}
+
+
+
+
+
